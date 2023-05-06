@@ -1,9 +1,9 @@
 // import Image from 'next/image';
 
-export default function RootPage() {
+export default function TestPage() {
   return (
     <main className="flex min-h-screen">
-      123
+      test
     </main>
   )
 }

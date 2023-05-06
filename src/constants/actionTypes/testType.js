@@ -1,0 +1,5 @@
+export default {
+  TEMPLATE_INIT: 0,
+  TEMPLATE_INIT_SUCCESS: 1,
+  TEMPLATE_INIT_FAIL: 2,
+}
