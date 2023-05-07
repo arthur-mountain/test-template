@@ -6,4 +6,4 @@ export default function RootPage() {
       123
     </main>
   )
-}
+};

@@ -2,17 +2,15 @@ import { useReducer, useContext, createContext } from "react";
 import TYPES from "constants/actionTypes/testType";
 import {
   GETv1ALL
-} from "services/servicesTemplate/servicesTemplate";
+} from "services/servicesTest/servicesTest";
 
 export const testCtx = createContext(null);
 export const useTestCtx = () => useContext(testCtx);
 
-const InitError = { code: 200, items: {}, };
-
 const InitStore = {
   isInit: false,
   isLoading: true,
-  error: InitError,
+  error: { code: 200, items: {}, },
   activeId: "",
   data: [],
   params: {},

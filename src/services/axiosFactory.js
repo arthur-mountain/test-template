@@ -39,8 +39,8 @@ export const createAxiosInstance = (
   return axiosIns;
 }
 
-const getAxiosIns = (url, hasAuthToken = true) => {
-  return createAxiosInstance({ baseURL: url, }, { hasAuthToken });
+const getAxiosIns = (baseURL, hasAuthToken = true) => {
+  return createAxiosInstance({ baseURL, }, { hasAuthToken });
 }
 
 export default getAxiosIns;
