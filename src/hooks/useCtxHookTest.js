@@ -6,6 +6,9 @@ import {
 
 export const testCtx = createContext(null);
 export const useTestCtx = () => useContext(testCtx);
+export const TestProvider = ({ children, value }) => {
+  return <testCtx.Provider value={value}>{children}</testCtx.Provider>
+}
 
 const InitStore = {
   isInit: false,
