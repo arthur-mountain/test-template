@@ -1,0 +1,10 @@
+Auto import
+Auto Rename Tag
+Code Spell Checker
+Color Highlight
+ES7+ React/Redux/React-native snippets
+Tabnine Ai
+Tailwind CSS IntelliSense
+Turbo Console Log
+ESLint
+Prettier

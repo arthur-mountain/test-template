@@ -1,0 +1,28 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "editor.linkedEditing": true,
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "css.lint.unknownAtRules": "ignore",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": [
+      "document"
+    ]
+  },
+  "redhat.telemetry.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "git.mergeEditor": false,
+  "turboConsoleLog.quote": "`",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "window.zoomLevel": 1
+}
